@@ -11,9 +11,9 @@
     </parent>
 
     <groupId>info.jab.microservices</groupId>
-    <artifactId>multi-tier</artifactId>
+    <artifactId>layered</artifactId>
     <version>0.1.0-SNAPSHOT</version>
-    <name>multi-tier</name>
+    <name>layered</name>
 
     <description>Demo project for Spring Boot</description>
 

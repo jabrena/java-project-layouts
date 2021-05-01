@@ -5,6 +5,6 @@ import info.jab.microservices.persistence.UserDetail;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")
-public interface UserDetailDTODestinationMapper {
+public interface UserDetailDTOMapper {
     UserDetailDTO sourceToDestination(UserDetail source);
 }

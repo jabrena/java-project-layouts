@@ -9,7 +9,7 @@ import java.util.stream.StreamSupport;
 @Service
 public record MyServiceImpl(
         UserDetailRepository userDetailRepository,
-        UserDetailDTODestinationMapper mapper) implements MyService {
+        UserDetailDTOMapper mapper) implements MyService {
 
     @Override
     public UserDetailDTO getSingleDTO() {
