@@ -1,2 +1,2 @@
 # java-project-layouts
-A review of different approaches to model your project: multi-tier, hexagonal &amp; onion architecture
+A review of different approaches to model your project: layered, hexagonal &amp; onion architecture
