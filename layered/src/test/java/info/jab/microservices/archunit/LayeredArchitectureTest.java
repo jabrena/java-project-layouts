@@ -12,11 +12,12 @@ public class LayeredArchitectureTest {
     @ArchTest
     static final ArchRule layer_dependencies_are_respected = layeredArchitecture()
 
-            .layer("Controllers").definedBy("info.jab.microservices.controller..")
-            .layer("Services").definedBy("info.jab.microservices.service..")
-            .layer("Persistence").definedBy("info.jab.microservices.persistence..")
+            .layer("Controllers").definedBy("..controller..")
+            .layer("Services").definedBy("..service..")
+            .layer("Persistence").definedBy("..persistence..")
 
             .whereLayer("Controllers").mayNotBeAccessedByAnyLayer()
             .whereLayer("Services").mayOnlyBeAccessedByLayers("Controllers")
             .whereLayer("Persistence").mayOnlyBeAccessedByLayers("Services");
-}
+
+        }
