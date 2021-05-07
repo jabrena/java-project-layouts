@@ -12,14 +12,11 @@ public class LayeredArchitectureTest {
     @ArchTest
     static final ArchRule layer_dependencies_are_respected = layeredArchitecture()
 
-            .layer("Model").definedBy("..model..")
             .layer("Controllers").definedBy("..controller..")
             .layer("Services").definedBy("..service..")
             .layer("Persistence").definedBy("..persistence..")
 
             .whereLayer("Controllers").mayNotBeAccessedByAnyLayer()
             .whereLayer("Services").mayOnlyBeAccessedByLayers("Controllers")
-            .whereLayer("Persistence").mayOnlyBeAccessedByLayers("Services")
-            .whereLayer("Model").mayOnlyBeAccessedByLayers("Controllers", "Services", "Persistence");
-
+            .whereLayer("Persistence").mayOnlyBeAccessedByLayers("Services");
 }

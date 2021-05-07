@@ -14,6 +14,7 @@
 
   <modules>
     <module>layered</module>
+    <module>layered2</module>
     <module>hexagonal</module>
     <module>onion</module>
   </modules>

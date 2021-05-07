@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MainApplication",
+            "request": "launch",
+            "mainClass": "info.jab.microservices.MainApplication",
+            "projectName": "layered2"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

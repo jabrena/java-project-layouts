@@ -1,4 +1,4 @@
-package info.jab.microservices.persistence;
+package info.jab.microservices.adapter.persistence;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
@@ -14,5 +14,4 @@ public record UserDetail(
     String gender,
     String password,
     Integer status
-    
 ) {}

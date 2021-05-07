@@ -11,9 +11,9 @@
     </parent>
 
     <groupId>info.jab.microservices</groupId>
-    <artifactId>layered</artifactId>
+    <artifactId>layered2</artifactId>
     <version>0.1.0-SNAPSHOT</version>
-    <name>layered</name>
+    <name>layered2</name>
 
     <description>Demo project for Spring Boot</description>
 

@@ -1,8 +1,7 @@
-package info.jab.microservices.controller;
+package info.jab.microservices.adapter.rest;
 
-import info.jab.microservices.service.MyService;
-import info.jab.microservices.model.UserDetailDTO;
-
+import info.jab.microservices.application.service.MyService;
+import info.jab.microservices.service.UserDetailDTO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,13 +10,7 @@ import java.util.List;
 
 @RestController()
 @RequestMapping("api")
-public class MyController {
-
-    private MyService myService;
-
-    MyController(MyService myService) {
-        this.myService = myService;
-    }
+public record MyController(MyService myService) {
 
     @GetMapping("single")
     public UserDetailDTO getSingleDTO() {

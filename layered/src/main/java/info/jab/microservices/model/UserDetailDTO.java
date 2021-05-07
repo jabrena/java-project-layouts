@@ -1,4 +1,4 @@
-package info.jab.microservices.service;
+package info.jab.microservices.model;
 
 //https://kotlinlang.org/docs/data-classes.html
 // data class User(val name: String, val age: Int)

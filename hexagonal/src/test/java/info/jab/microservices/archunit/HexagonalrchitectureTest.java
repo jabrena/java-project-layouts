@@ -11,9 +11,9 @@ public class HexagonalrchitectureTest {
 
     @ArchTest
     static ArchRule onionArchitecture =  onionArchitecture()
-        //.domainModels("com.myapp.domain.model..")
-        .domainServices("com.myapp.domain.service..")
-        .applicationServices("com.myapp.application..")
-        .adapter("persistence", "com.myapp.adapter.persistence..")
-        .adapter("rest", "com.myapp.adapter.rest..");    
+        .domainModels("info.jab.microservices.domain.model..")
+        .domainServices("info.jab.microservices.domain.service..")
+        .applicationServices("info.jab.microservices.application..")
+        .adapter("persistence", "info.jab.microservices.adapter.persistence..")
+        .adapter("rest", "info.jab.microservices.adapter.rest..");
 }

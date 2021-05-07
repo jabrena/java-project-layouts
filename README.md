@@ -1,5 +1,11 @@
 # java-project-layouts
+
 A review of different approaches to model your project: layered, hexagonal &amp; onion architecture
+
+- [x] [Layered](layered/README.md)
+- [x] [Layered v2 (Without model package)](layered2/README.md)
+- [ ] Hexagonal
+- [ ] Onion
 
 ## References
 
