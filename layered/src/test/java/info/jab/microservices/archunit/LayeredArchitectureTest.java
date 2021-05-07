@@ -20,4 +20,4 @@ public class LayeredArchitectureTest {
             .whereLayer("Services").mayOnlyBeAccessedByLayers("Controllers")
             .whereLayer("Persistence").mayOnlyBeAccessedByLayers("Services");
 
-        }
+}
