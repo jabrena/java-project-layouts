@@ -17,6 +17,10 @@
 
     <description>Demo project for Spring Boot</description>
 
+    <!--
+        jlink
+    -->
+
     <properties>
         <java.version>16</java.version>
         <jackson.version>2.12.3</jackson.version>

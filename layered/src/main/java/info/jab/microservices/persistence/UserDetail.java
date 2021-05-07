@@ -14,4 +14,5 @@ public record UserDetail(
     String gender,
     String password,
     Integer status
+    
 ) {}

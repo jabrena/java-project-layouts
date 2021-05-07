@@ -1,5 +1,9 @@
 package info.jab.microservices.service;
 
+//https://kotlinlang.org/docs/data-classes.html
+// data class User(val name: String, val age: Int)
+
+
 public record UserDetailDTO (
 
     Long user_id,
