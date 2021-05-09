@@ -1,4 +1,4 @@
-package info.jab.microservices.adapter.persistence;
+package info.jab.microservices.infrastructure;
 
 
 import org.springframework.data.jdbc.repository.query.Query;

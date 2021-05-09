@@ -1,4 +1,4 @@
-package info.jab.microservices.service;
+package info.jab.microservices.domain.model;
 
 public record UserDetailDTO (
 

@@ -15,7 +15,7 @@ public class MyController {
 
     private MyService myService;
 
-    MyController(MyService myService) {
+    public MyController(MyService myService) {
         this.myService = myService;
     }
 
