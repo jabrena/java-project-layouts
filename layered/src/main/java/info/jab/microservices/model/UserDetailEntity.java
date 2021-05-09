@@ -1,10 +1,10 @@
-package info.jab.microservices.persistence;
+package info.jab.microservices.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 
 @Table("USER_DETAILS")
-public record UserDetail(
+public record UserDetailEntity(
 
     @Id
     Long user_id,
@@ -14,4 +14,5 @@ public record UserDetail(
     String gender,
     String password,
     Integer status
+    
 ) {}
