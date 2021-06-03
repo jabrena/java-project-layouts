@@ -1,7 +1,5 @@
-package info.jab.microservices.persistence;
+package info.jab.microservices.adapters.persistence;
 
-
-import info.jab.microservices.model.UserDetailEntity;
 import org.springframework.data.jdbc.repository.query.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;

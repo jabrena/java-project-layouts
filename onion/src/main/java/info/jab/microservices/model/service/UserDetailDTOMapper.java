@@ -1,8 +1,7 @@
-package info.jab.microservices.service;
+package info.jab.microservices.model.service;
 
-import info.jab.microservices.model.UserDetailEntity;
+import info.jab.microservices.adapters.persistence.UserDetailEntity;
 
-import info.jab.microservices.model.UserDetailDTO;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

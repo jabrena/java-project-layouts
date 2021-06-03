@@ -1,4 +1,4 @@
-package info.jab.microservices.model;
+package info.jab.microservices.adapters.persistence;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;

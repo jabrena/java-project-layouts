@@ -1,6 +1,4 @@
-package info.jab.microservices.service;
-
-import info.jab.microservices.model.UserDetailDTO;
+package info.jab.microservices.model.service;
 
 import java.util.List;
 
