@@ -1,8 +1,7 @@
 package info.jab.microservices.adapters.rest;
 
-import info.jab.microservices.model.service.MyService;
-import info.jab.microservices.model.service.UserDetailDTO;
-
+import info.jab.microservices.domain.model.UserDetailDTO;
+import info.jab.microservices.domain.service.MyService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

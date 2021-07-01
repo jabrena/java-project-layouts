@@ -4,6 +4,7 @@ import com.tngtech.archunit.junit.AnalyzeClasses;
 import com.tngtech.archunit.junit.ArchTest;
 import com.tngtech.archunit.junit.ArchIgnore;
 import com.tngtech.archunit.lang.ArchRule;
+import org.junit.jupiter.api.Disabled;
 
 import static com.tngtech.archunit.library.Architectures.layeredArchitecture;
 

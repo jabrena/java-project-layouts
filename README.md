@@ -7,6 +7,10 @@ A review of different approaches to model your project: layered, hexagonal &amp;
 - [ ] Hexagonal
 - [ ] Onion
 
+```
+sdk use java 16.0.1.hs-adpt
+```
+
 ## References
 
 - https://nipafx.dev/java-record-semantics/

@@ -1,7 +1,9 @@
-package info.jab.microservices.model.service;
+package info.jab.microservices.domain.service.impl;
 
 import info.jab.microservices.adapters.persistence.UserDetailRepository;
-
+import info.jab.microservices.domain.model.UserDetailDTO;
+import info.jab.microservices.domain.service.MyService;
+import info.jab.microservices.domain.service.UserDetailDTOMapper;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -105,6 +105,10 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <arguments>--enable-preview</arguments>
+                    <jvmArguments>--enable-preview</jvmArguments>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -118,6 +122,7 @@
                             <version>1.4.2.Final</version>
                         </path>
                     </annotationProcessorPaths>
+                    <compilerArgs>--enable-preview</compilerArgs>
                 </configuration>
             </plugin>
             <!--
@@ -127,6 +132,14 @@
                 <version>4.0.3</version>
             </plugin>
             -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version>
+                <configuration>
+                    <argLine>--enable-preview</argLine>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
